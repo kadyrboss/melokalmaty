@@ -1,0 +1,71 @@
+.main_inner {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main_inner_nav {
+    background: #fdf5e68f;
+    
+    width: 50%;
+    height: 50vh;
+}
+
+.main_inner_nav >h3{
+    margin: 5 10;
+}
+
+.main_inner_nav >p{
+    margin: 0 10;
+}
+
+.main_inner_nav >a{
+    margin: 5 10 0 10;
+}
+
+.main_inner_nav >input{
+    margin: 0 10;
+    width: 80%;
+}
+
+.main_inner_nav >button{
+    margin: 10 10;
+    width: 80%;
+    background: palegreen;
+}
+
+.video {
+    width: 50%;
+}
+
+.video > video {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+<div class="container">
+                    <div class="main_inner">
+                        <div class="main_inner_nav">
+                            <h3>Добро пожаловать! В наш меловой <br>интернет магазин</h3>
+                            <p>Здесь Вы можете найти разные виды<br> природных мелков, глин, глиномелов <br>добытых с карьеров России, Украины и Казахстана.</p>
+                            <a>Для заказа оставьте свои данные:</a>
+                            <p>Имя*</p>
+                            <input>
+                            <p>Номер телефона*</p>
+                            <input>
+                            <button>ГОТОВА</button>
+                        </div>
+                        <div class="video">
+                            <video>
+                                <source src="..//melokalmaty/public/image/stop motion.mp4">
+                            </video>
+                        </div>
+                    </div>
+                    
+            </div>

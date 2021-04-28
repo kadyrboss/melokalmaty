@@ -1,0 +1,67 @@
+
+
+.jeneral > video {
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 20;
+}
+
+.maps {
+    width: 100%;
+    margin-top: 20;
+}
+
+.maps > iframe {
+    width: 100%;
+}
+
+
+.network{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 10;
+}
+
+.melok {
+    width: 30%;
+}
+
+.melok > a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #005076;
+}
+
+.melok > h4 {
+    font-size: 10px;
+    color: #005076;
+}
+
+.nomer {
+    width: 30%;
+}
+
+.nomer > h4 {
+    font-weight: 500;
+    color: #005076;
+}
+
+.nomer > a {
+    color: #005076;
+}
+
+.social {
+    width: 30%;
+}
+
+.social > h4 {
+    color: #005076;
+    font-weight: 500;
+}
+
+.social> a {
+    color: #005076;
+    margin: 0 5;
+}
